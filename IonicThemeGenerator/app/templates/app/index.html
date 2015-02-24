@@ -3,12 +3,12 @@
 {% block content %}
 <hr />
 <div class="row" ng-controller="MainController">
-    <div class="col-xs-12 clearfix">
+    <div class="col-xs-12 clearfix" data-spy="affix" data-offset-top="60">
         {% csrf_token %}
         <a ng-click="save('')" class="btn btn-primary pull-right">Save</a>
     </div>
 
-    <div class="col-xs-4">
+    <div class="col-xs-6">
         <ul class="list-unstyled">
             <li ng-repeat="variable in state.variables" class="form-group">
                 <label ng-bind="variable.name"></label>
@@ -16,8 +16,8 @@
             </li>
         </ul>
     </div>
-    <div class="col-xs-8">
-        
+    <div class="col-xs-6">
+        <iframe src="" style="width: 414px; height: 736px; border: 2px solid #eee; display: block;" data-spy="affix" data-offset-top="60"></iframe>
     </div>
 </div>
 

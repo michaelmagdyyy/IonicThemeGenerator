@@ -56,6 +56,7 @@
     <Folder Include="IonicThemeGenerator\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\static\app\kitchensink.js" />
     <Content Include="app\static\app\main.controller.js" />
     <Content Include="app\static\app\variables.js" />
     <Content Include="app\static\ionic-src\ionic.scss" />
@@ -99,6 +100,7 @@
     <Content Include="app\static\ionic-src\_variables.scss" />
     <Content Include="app\static\temp\ionic.scss" />
     <Content Include="app\static\temp\1\_variables.scss" />
+    <Content Include="app\templates\app\kitchensink.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

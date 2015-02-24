@@ -39,9 +39,18 @@ def process(request):
     file = open(ionic_path + 'output.css', 'w')
     file.writelines(sass_result)
 
-    #shutil.rmtree(ionic_path)
+    return HttpResponse(ionic_path.split('/')[-2])
 
-    return HttpResponse(sass_result)
+def kitchensink(request):
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/kitchensink.html',
+        context_instance = RequestContext(request,
+        {
+            'outputuuid': request.GET.get('q', '')
+        })
+    )
 
 def write_variables_to_file(variables):
     lines = []
