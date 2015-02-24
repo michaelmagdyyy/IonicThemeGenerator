@@ -56,6 +56,8 @@
     <Folder Include="IonicThemeGenerator\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\static\app\main.controller.js" />
+    <Content Include="app\static\app\variables.js" />
     <Content Include="app\static\ionic-src\ionic.scss" />
     <Content Include="app\static\ionic-src\ionicons\ionicons.scss" />
     <Content Include="app\static\ionic-src\ionicons\_ionicons-font.scss" />
@@ -95,7 +97,7 @@
     <Content Include="app\static\ionic-src\_type.scss" />
     <Content Include="app\static\ionic-src\_util.scss" />
     <Content Include="app\static\ionic-src\_variables.scss" />
-    <Content Include="app\static\temp\1\ionic.scss" />
+    <Content Include="app\static\temp\ionic.scss" />
     <Content Include="app\static\temp\1\_variables.scss" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />

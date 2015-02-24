@@ -13,3 +13,18 @@ C:\Workspaces2\IonicThemeGenerator\IonicThemeGenerator\obj\Debug\web.config
 C:\Workspaces2\IonicThemeGenerator\IonicThemeGenerator\obj\Debug\web.debug.config
 C:\Workspaces2\IonicThemeGenerator\IonicThemeGenerator\obj\Debug\deployment-updated-pyvenv.cfg
 C:\Workspaces2\IonicThemeGenerator\IonicThemeGenerator\ptvs_virtualenv_proxy.py
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\bin\Microsoft.PythonTools.WebRole.dll
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\obj\Debug\attach_server.py
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\obj\Debug\visualstudio_py_debugger.py
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\obj\Debug\visualstudio_py_repl.py
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\obj\Debug\visualstudio_py_util.py
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\obj\Debug\__init__.py
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\obj\Debug\__main__.py
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\bin\AzureSetup.cfg
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\bin\wfastcgi.py
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\obj\Debug\deployment-updated-pyvenv.cfg
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\ptvs_virtualenv_proxy.py
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\obj\Debug\web.config
+C:\Workspaces2\Ionic Theme Generator\IonicThemeGenerator\obj\Debug\web.debug.config
