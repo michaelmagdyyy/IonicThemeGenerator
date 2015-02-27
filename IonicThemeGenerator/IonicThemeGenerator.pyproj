@@ -6,7 +6,7 @@
     <RootNamespace>IonicThemeGenerator</RootNamespace>
     <InterpreterId>{8e4008ca-1652-4765-a3ea-e7e2c4ffe2eb}</InterpreterId>
     <InterpreterVersion>3.4</InterpreterVersion>
-    <NameOfLastUsedPublishProfile>ionicthemegenerator (2)</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>ionicthemegenerator</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -103,6 +103,9 @@
     <None Include="ionicthemegenerator.pubxml" />
     <None Include="ionicframeworkthemegenerator.pubxml" />
     <None Include="ionicthemegenerator %282%29.pubxml" />
+    <Content Include="readme.md">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

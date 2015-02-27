@@ -5,11 +5,11 @@
 {{path}}
 <div class="row" ng-controller="MainController">
     <div class="col-xs-12 clearfix" data-spy="affix" data-offset-top="60">
-        {% csrf_token %}
         <a ng-click="save('')" class="btn pull-right" ng-class="{'btn-primary': !state.saving, 'btn-warning': state.saving }">
             <span ng-if="!state.saving">Save</span>
             <span ng-if="state.saving"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> Saving...</span>
         </a>
+        <input ng-show="state.currentUrl != ''" ng-value="state.currentUrl" class="form-control pull-right" style="max-width: 750px; "/>
     </div>
 
     <div class="col-xs-6">

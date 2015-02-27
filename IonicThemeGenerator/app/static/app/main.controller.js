@@ -3,8 +3,8 @@
 app.controller("MainController", ["$scope", "$http", function($scope, $http, config) {
     $scope.state = {
         variables: window.ionicVariables,
-        currentUuid: "78ec3e08-9ced-409d-ae57-6d687376eab0",
-        saving: false
+        saving: false,
+        currentUrl: ''
     }
 
     $scope.save = function () {
@@ -20,6 +20,8 @@ app.controller("MainController", ["$scope", "$http", function($scope, $http, con
         $http.post('/process', { variables: sassVars })
         .success(function (data) {
             $("iframe").attr("src", "/kitchensink?q=" + data);
+            $(".download-button").attr('href', '/static/temp/' + data + '/output.css'); // hate it but don't have time to fix this yet :)
+            $scope.state.currentUrl = 'http://' + window.location.host + '/static/temp/' + data + '/output.css';
             $scope.state.saving = false;
         });
     }
