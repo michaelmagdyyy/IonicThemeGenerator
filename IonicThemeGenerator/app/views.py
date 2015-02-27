@@ -23,7 +23,7 @@ def home(request):
         context_instance = RequestContext(request,
         {
             'title':'Home Page',
-            'year':datetime.now().year,
+            'year': datetime.now().year,
         })
     )
 
@@ -56,7 +56,8 @@ def write_variables_to_file(variables):
     lines = []
 
     id = str(uuid.uuid4())
-    temp_directory = "C:/Workspaces2/Ionic Theme Generator/IonicThemeGenerator/app/static/temp/"
+    local_path = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/')
+    temp_directory = os.path.dirname(os.path.realpath(__file__)) + "/../static/temp/"
     directory = temp_directory + id + "/"
 
     if not os.path.exists(directory):

@@ -6,6 +6,7 @@
     <RootNamespace>IonicThemeGenerator</RootNamespace>
     <InterpreterId>{8e4008ca-1652-4765-a3ea-e7e2c4ffe2eb}</InterpreterId>
     <InterpreterVersion>3.4</InterpreterVersion>
+    <NameOfLastUsedPublishProfile>ionicthemegenerator (2)</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -50,7 +51,6 @@
     <Folder Include="app\static\app\content\" />
     <Folder Include="app\static\app\fonts\" />
     <Folder Include="app\static\app\scripts\" />
-    <Folder Include="app\static\temp\1\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="IonicThemeGenerator\" />
@@ -99,8 +99,10 @@
     <Content Include="app\static\ionic-src\_util.scss" />
     <Content Include="app\static\ionic-src\_variables.scss" />
     <Content Include="app\static\temp\ionic.scss" />
-    <Content Include="app\static\temp\1\_variables.scss" />
     <Content Include="app\templates\app\kitchensink.html" />
+    <None Include="ionicthemegenerator.pubxml" />
+    <None Include="ionicframeworkthemegenerator.pubxml" />
+    <None Include="ionicthemegenerator %282%29.pubxml" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
